@@ -32,6 +32,5 @@ print(cubes)
 
 print('marriage' in my_dict)
 
-
 for i in my_dict:
     print('{} ---> {}'.format(i, my_dict[i]))
