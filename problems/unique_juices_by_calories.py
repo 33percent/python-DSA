@@ -1,5 +1,28 @@
 import string
 
+"""
+    problem statement:
+    you are hosting a party and you have to make drinks for every person. 
+    Every person has a particular calorie intake and the drink you make should be 
+    equal to that.
+    the list of juices available are specified in the "juice_list" array where the 
+    first element is the no of juices and the upcoming values are their calorie values.
+    example '2 3 4'
+    no of juices - 2 
+    calorific value of juice a - 3
+    calorific value of juice a - 4
+    the cupboard has all the juices which is specified using 'available_juices'
+    and the calorie intake is specified using calorie_intake. 
+    Mix atleast 2 juices to make a cocktail and find what are the juices.
+    Example 
+    'juice_list' - '3 5 4 6'
+    'available_juices' - 'abcbacbabcc'
+    'calorie_intake' - 15
+
+    solution - aaa (5+5+5) == 15
+"""
+
+
 no_of_friends = 3
 juice_list = '3 5 4 6'
 """
